@@ -18,5 +18,5 @@ jobs:
         run: echo '${{ toJson(strategy) }}'
       - name: Dump matrix context
         run: echo '${{ toJson(matrix) }}'
-      - name: Dump GITHUB_ENV
+      - name: Dump GITHUB_ENV again
         run: cat $GITHUB_ENV
