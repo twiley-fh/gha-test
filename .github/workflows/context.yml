@@ -29,5 +29,4 @@ jobs:
         run: echo '${{ toJson(matrix) }}'
       - name: Echo GITHUB_ENV
         run: echo $GITHUB_ENV
-      - name: Dump GITHUB_ENV
-        run: cat $GITHUB_ENV
+
