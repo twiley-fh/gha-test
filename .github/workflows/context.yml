@@ -1,5 +1,6 @@
 name: Context Output
 on: push
+  tags-ignore: '**'
 
 defaults:
   run:
