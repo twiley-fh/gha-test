@@ -1,6 +1,8 @@
 name: Context Output
 on: push
 
+shell: /bin/bash
+
 jobs:
   dump_contexts:
     runs-on: ubuntu-latest
